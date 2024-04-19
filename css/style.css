@@ -1,0 +1,316 @@
+:root {
+    --font-family: "Krona One", sans-serif;
+    --second-family: "Inter", sans-serif;
+  }
+    
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.wrapper {
+    min-width: 100%;
+}
+.hero{
+    height: 100vh;
+    background: #F6F7F8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0px 20px 0px 20px;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 207.5px;
+    justify-content: center;
+}
+.list__item {
+    transition: all 0.3s;
+    padding-top: 40px;
+    border-bottom: none;
+}
+
+.privat-cabite__img{
+    position: absolute;
+    height: 30px;
+    top: 33px;
+    padding-bottom: 1px;
+    padding-left: 12px;
+}
+
+.list__item:hover{
+    border-bottom: 1px solid #FFCC1D;
+    padding-bottom: 2px;
+}
+
+.list__link {
+    transition: all 0.3s;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    color: #313132;
+}
+
+.list__link:last-child{
+    margin-right: 7px;
+}
+
+
+.list__link:hover{
+    color: #FFCC1D;
+}
+
+.hero__title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 40px;
+    color: #313132;
+    text-align: start;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.subtitle {
+    padding-top: 20px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: start;
+    color: #313132;
+    max-width: 555px;
+    padding-left: 4px;
+    padding-bottom: 40px;
+}
+
+
+
+.hero__button {
+}
+    
+.hero__btn-wrap {
+    font-family: var(--second-family);
+    margin-left: 4px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 6px 32px 6px 32px;
+    background-color: #313132;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
+}
+
+.hero__btn-wrap:hover{
+    background-color: #FFCC1D;
+    padding: 10px 38px 10px 38px;
+}
+
+.hero__img{
+    position: relative;
+}
+
+.hero__img-wrap{
+    height: 500px;
+    position: absolute;
+    right: 50px;
+    top: -340px;
+
+}
+
+.reccomend{
+    padding: 25px 0px 25px 0px;
+    height: 10%;
+    background-color: #F6F7F8;
+}
+
+.second__reccomend{
+}
+
+
+.list__reccomend {
+    transform: scaleY(20px, 20px);
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 150px;
+    border-radius: 25px;
+
+}
+
+.item__reccomend {
+}
+
+
+
+.link__reccomend {
+    font-family: var(--second-family);
+    color: #717171;
+    transition: all 0.4s;
+}
+
+.link__reccomend:hover{
+    color: #dfb62f;
+}
+
+.img__reccomend {
+    margin: 0 auto;
+    padding-right: 0;
+    padding-right: 10px;
+    display: block;
+    height: 50px;
+}
+
+.l_padding{
+    padding-left: 6px;
+}
+
+.second__recommend {
+}
+.recommend-foryou { 
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+}
+.recommend__desc {
+    overflow: hidden;
+    padding-top: 100px;
+    display: flex;
+    column-gap: 150px;
+}
+.recommend__credit-card {
+    border-radius: 70px;
+    width: 619px;
+    height: 495px;
+    background-color: #ffffff;
+    backdrop-filter: blur(20px);
+    color: #282828;
+    transition: all 0.4s;
+}
+
+.recommend__credit-card:hover{
+    transform: scale(1.1);
+}
+
+
+.platina__credit-card {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    font-family: var(--second-family);
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.platina__info-card {
+    padding-left: 84px;
+    padding-right: 84px;
+    padding-top: 9px;
+    font-family: var(--second-family);
+    font-weight: 100;
+    font-size: 17px;
+    text-align: center;
+}
+
+.reccomend__investing {
+    border-radius: 70px;
+    width: 619px;
+    height: 495px;
+    background: #fff;
+    backdrop-filter: blur(20px);
+    color: #282828;
+    transition: all 0.4s;
+}
+
+.reccomend__investing:hover{
+    transform: scale(1.1);
+}
+
+.investing__def {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: var(--second-family);
+    font-weight: 300;
+    font-size: 25px;
+}
+.investing__info {
+    padding-left: 84px;
+    padding-right: 84px;
+    padding-top: 29px;
+    font-family: var(--second-family);
+    font-weight: 100;
+    font-size: 17px;
+    text-align: center;
+}
+
+.img__recommend-card__platina{
+    height: 500px;
+    padding-left: 50px;
+}
+
+.img__recommend-investing{
+    height: 500px;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+/* .hero__button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+    
+.hero__btn-wrap {
+    font-family: var(--second-family);
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 41px;
+    padding: 10px 0px 0px 0px;
+    width: 161px;
+    height: 37px;
+    background: #ffffff;
+    text-align: center;
+    color: #010101;
+} */
